@@ -1,5 +1,8 @@
 @import "tailwindcss";
 
-body {
-  font-family: Arial, Helvetica, sans-serif;
+@theme {
+  --color-slider-track: #55575e;
+  --color-slider-thumb: #1d75cd;
+  --color-slider-thumb-hover: #2586e0;
+  --color-slider-focus: #60a5fa;
 }
